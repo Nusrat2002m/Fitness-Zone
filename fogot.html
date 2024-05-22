@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forgot Password</title>
+    <style>
+        
+* {
+    margin:0;
+    padding:0;
+    font-family:"Poppins",sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(146, 200, 209);
+    background-size: cover;
+    background-position:center;
+
+}
+h1{
+   text-align: center;
+   
+}
+.Forgot p{
+    font-size: 16px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.input-box input{
+   background-color: transparent;
+    border: none;
+    outline:none;
+    border: 2px solid rgb(10, 0, 0);
+    border-radius:60px;
+    font-size: 16px;
+    color: #171111;
+    padding: 20px 45px 20px 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Forgot .btn {
+    width:100%;
+    height:50px;
+    background: #2b0c0c;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px blue;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+
+</style>
+</head>
+<body>
+    <div class="Forgot">
+        <h1>Forgot Password</h1>
+    <form action="#" method="post">
+        <div class="input-box">
+     <p>Email:</p> 
+     <input type="email" name="email" placeholder="email" required><br></div>
+     <div class="input-box">
+     <p>Write New Password:</p>
+     <input type="text"  name="New Password" placeholder="New Password"><br></div>
+     <div class="input-box">
+     <p>Confirm New Password: </p>
+      <input type="text"  name="Confirm Password" placeholder="Confirm Password"><br></div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+</body>
+</html>

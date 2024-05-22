@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User</title>
+    
+    <style>
+        *{
+                padding:0;
+                margin:0;
+                font-family: sans-serif;
+        }
+        body{
+      background-image: url(black.jpg);
+        background-size: cover;
+        background-repeat:  no-repeat;
+        color: #fff;
+        height: 100vh;
+    }
+    .registration-Form {
+        position: absolute;
+        top: 60%;;
+        left: 50%;
+        transform:translate(-50%,-50%);
+        width: 400px;
+    }
+    .registration-Form h1{
+        font-size:25px;
+       text-align: center;
+        text-transform:uppercase;
+        margin: 40px 0 ;
+    }
+    .registration-Form p{
+        font-size: 20px;
+        margin: 15px 0;
+        
+    }
+    .registration-Form input{
+        font-size: 16px;
+        padding:15px 10px;
+        width:100%;
+        border: 0;
+        border-radius: 5px;
+        outline: none;
+    }
+    .registration-Form button{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 20px 0;
+        padding:10px 15px;
+        width: 50%;
+        border: 0;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    .registration-Form button :hover{
+        color: red;
+    }
+        </style>
+</head>
+<body>
+    <div class="registration-Form">
+        <h1>Registration Form</h1>
+    <form action="#" method="post">
+     <p>First Name:</p> 
+     <input type="text" name="first Name" placeholder="first name"><br>
+     <p>Last Name: </p>
+      <input type="text"  name="last Name" placeholder="last name"><br>
+     <p>Email:</p> 
+     <input type="email" name="email" placeholder="email" required><br>
+     <p>Birth Date:</p>
+     <input type="date"  name="date" placeholder="date"><br>
+     <p>Gender:</p><br>
+     <input type="radio">Male<br>
+     <input type ="radio">Female<br>
+     <input type="radio"> Other <br>
+     <button type="submit">Register!</button>
+     <button type="submit">Reset</button>
+    </form>
+</div>
+</body>
+</html>

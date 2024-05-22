@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<style>
+    *{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(Untitled\ design.png);
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right:8%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: #eee;
+    width: 330px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+.container .navbar input{
+    width: 80px;
+    border: 2px;
+    outline: none;
+    background:hsl(0, 2%, 79%) ;
+    font-size:18px ;   
+}
+.navbar placeholder{
+    color: #000;
+}
+
+.header{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position:relative;
+}
+.logo{
+    width:50px;
+    cursor:pointer
+}
+.navbar{
+    text-align: center;
+    flex:1;
+}
+.navbar a{
+    padding:4px 7px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    font-size:20px;
+    font-weight:bold;
+}
+.btn {
+    cursor:pointer;
+    color:hsl(0, 100%, 52%);
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding:10px 30px;
+    border:2px solid #212121;
+    background: transparent;
+    text-decoration:none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+} 
+.btn :hover{
+    color:#000;
+    background-color: #fff;
+}
+.content{
+    text-align: center;
+    margin-top: 12%;
+}
+.content h1{
+    font-size: 60px;
+    background-color: hsl(0, 0%, 25%);
+    color:#fff
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="lo.jpg" class="logo">
+    <div class="navbar">
+    <a href="Home.html">Home</a>
+   <a href="exercise.html">Exercise</a>
+   <a href="wellness.html">Wellness</a>
+   <a href="Nutrition.html">Nutrition</a>
+   <a href="wanna.html">Wanna Buy Instrument?</a>
+   <a href="About.html">About Us!</a>
+   <a href="contect.html">Contect Us</a>
+   <input type="text" placeholder="Search">
+   <i class='bx bx-search-alt-2'></i>
+ 
+    </div>
+    <button class="btn"><a href="Login.html">Login </a></button>
+    </div>
+    <div class="content">
+    <h1>Stay Young and Stay Healthy in Mentally and Physically.</h1>
+</div>
+</div>
+</body>
+</html>

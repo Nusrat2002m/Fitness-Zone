@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teacher</title>
+ <style>
+  body{
+    background-image: url(img.png);
+    margin:0;
+    padding:0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+  }
+  .btn{
+   border:1px solid rgb(255, 0, 0);
+    
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding:15px 20px;
+    display: inline-block;
+    position:relative;
+    transition: all 0.5s ease 0s;
+    align-content: center;
+
+  }
+  .btn:after{
+    background: rgb(255, 0, 0);
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+
+  }
+  .btn:hover{
+    color:#fff;
+  }
+  .btn:hover:after{
+   width: 100%;
+  }
+ </style>
+</head>
+<body>
+<a href="register1.html" class="btn">Are you a Trainer?</a>
+<a href="Register.html" class="btn">User</a>
+</body>
+</html>
